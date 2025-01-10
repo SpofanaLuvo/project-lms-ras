@@ -21,7 +21,7 @@ export default function Home() {
     };
 
     // Close the menu and scroll to the section
-    const handleLinkClick = (id) => {
+    const handleLinkClick = (id: string) => {
         setIsMenuOpen(false);
         const section = document.getElementById(id);
         if (section) {
